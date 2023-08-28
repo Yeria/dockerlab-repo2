@@ -1,0 +1,3 @@
+docker run -p 8100:41005 -d --name node-app lab2-repo2 : to create and start container called node-app using lab2-repo2 image and port map 8100 to 41005
+docker ps -a : to list all docker containers including the ones currently not running
+docker logs node-app : to display log for container called node-app
